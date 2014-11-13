@@ -20,10 +20,11 @@
   ],
   "dependencies": {
     "nopt": "*",
+    "nopt-usage": "*",
     "mocha": "*",
     "chai": "*"
   },
-  "author": "Jane Avriette <jane.avriette@gsa.gov> (http://github.com/avriette)",
+  "author": "Jane Avriette <janee@cpan.org> (http://github.com/avriette)",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/18F/sendak-usage/issues"
