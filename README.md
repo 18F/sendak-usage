@@ -21,6 +21,23 @@ It is published here primarily so that Sendak can require it, but you should
 feel comfortable that it will continue to be maintained for at least as long
 as Sendak is if it is useful to you.
 
+Usage
+====
+
+From the [original issue](https://github.com/18F/Sendak/issues/38):
+
+```
+var parsed = require( 'sendak-usage' ).parse( {
+  help: {
+    'long-args': [ 'help', 'halp' ],
+    'description': 'sets the helpful bit',
+    'short-args': [ 'h' ],
+    'default': false
+    'type': [ Boolean ]
+  }
+} );
+```
+
 Author
 ====
 
