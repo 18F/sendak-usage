@@ -1,0 +1,32 @@
+{
+  "name": "sendak-usage",
+  "version": "0.1.0",
+  "description": "A command-line parser/usage generator wrapping nopt",
+  "main": "lib/sendak-usage.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/18F/sendak-usage"
+  },
+  "keywords": [
+    "sendak",
+    "cli",
+    "options",
+    "wrapper",
+    "nopt",
+    "usage"
+  ],
+  "dependencies": {
+    "nopt": "*",
+    "mocha": "*",
+    "chai": "*"
+  },
+  "author": "Jane Avriette <jane.avriette@gsa.gov> (http://github.com/avriette)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/18F/sendak-usage/issues"
+  },
+  "homepage": "https://github.com/18F/sendak-usage"
+}
