@@ -3,14 +3,28 @@
 var su = require( '../lib/sendak-usage.js' );
 
 var parsed = su.parsedown( {
-	help : {
-		'long-args'   : [ 'help', 'halp' ],
-		'description' : 'sets the helpful bit',
-		'short-args'  : [ 'h' ],
+	foo : {
+		'long-args'   : [ 'foo' ],
+		'description' : 'first argument to fooing.',
+		'short-args'  : [ 'f' ],
+		'default'     : false,
+		'type'        : [ Boolean ]
+	},
+	bar : {
+		'long-args'   : [ 'bar' ],
+		'description' : 'second argument to fooing.',
+		'short-args'  : [ 'b' ],
+		'default'     : false,
+		'type'        : [ Boolean ]
+	},
+	bletch : {
+		'long-args'   : [ 'bletch' ],
+		'description' : 'sometimes third argument but is optional.',
+		'short-args'  : [ 'bl' ],
 		'default'     : false,
 		'type'        : [ Boolean ]
 	}
 }, process.argv );
 
-console.log( 'original arguments: ', process.argv );
-console.log( parsed );
+// console.log( 'original arguments: ', process.argv );
+console.log( parsed[1] );
