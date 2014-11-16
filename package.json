@@ -24,7 +24,7 @@
     "mocha": "*",
     "chai": "*"
   },
-  "author": "Jane Avriette <janee@cpan.org> (http://github.com/avriette)",
+  "author": "Jane Avriette <jane@cpan.org> (http://github.com/avriette)",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/18F/sendak-usage/issues"
