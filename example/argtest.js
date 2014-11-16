@@ -24,7 +24,10 @@ var parsed = su.parsedown( {
 		'default'     : false,
 		'type'        : [ Boolean ]
 	}
-}, process.argv );
+}, process.argv )
+	, nopt  = parsed[0]
+	, usage = parsed[1];
 
-// console.log( 'original arguments: ', process.argv );
-console.log( parsed[1] );
+console.log( 'original arguments: ', process.argv );
+console.log( 'nopt: ', nopt );
+console.log( 'usage string: ', usage );
