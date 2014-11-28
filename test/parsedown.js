@@ -12,6 +12,8 @@ var argv = [
 
 it( 'parsedown', function () {
 	var parsed = require( '../lib/sendak-usage.js' ).parsedown( {
+		// full declaration
+		//
 		foo : {
 			'long-args'   : [ 'foo' ],
 			'description' : 'first argument to fooing.',
@@ -19,6 +21,9 @@ it( 'parsedown', function () {
 			'default'     : false,
 			'type'        : [ Boolean ]
 		},
+		// abbreviated declaration
+		//
+		bar : { 'type' : [ Boolean ] }
 	}, argv )
 		, nopt  = parsed[0]
 		, usage = parsed[1];

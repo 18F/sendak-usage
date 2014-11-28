@@ -23,6 +23,10 @@ var parsed = su.parsedown( {
 		'short-args'  : [ 'bl' ],
 		'default'     : false,
 		'type'        : [ Boolean ]
+	},
+	qip : {
+		'description' : 'qip is the fourth variable.',
+		'type' : [ Boolean ]
 	}
 }, process.argv )
 	, nopt  = parsed[0]
