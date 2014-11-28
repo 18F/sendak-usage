@@ -28,13 +28,18 @@ From the [original issue](https://github.com/18F/Sendak/issues/38):
 
 ```
 var parsed = require( 'sendak-usage' ).parse( {
-  help: {
+  // This is a full argument declaration
+  //
+  'help': {
     'long-args': [ 'help', 'halp' ],
     'description': 'sets the helpful bit',
     'short-args': [ 'h' ],
     'default': false
     'type': [ Boolean ]
-  }
+  },
+  // But all you need to do is specify the type of argument you want.
+  //
+  'long-arg-name': { 'type': [ Boolean ] }
 } );
 ```
 
