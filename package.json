@@ -1,6 +1,6 @@
 {
   "name": "sendak-usage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A command-line parser/usage generator wrapping nopt",
   "main": "lib/sendak-usage.js",
   "scripts": {
