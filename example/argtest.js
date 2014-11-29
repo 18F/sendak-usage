@@ -27,7 +27,10 @@ var parsed = su.parsedown( {
 	qip : {
 		'description' : 'qip is the fourth variable.',
 		'type' : [ Boolean ]
-	}
+	},
+	// A null description
+	//
+	quux : { 'type' : [ Boolean ] }
 }, process.argv )
 	, nopt  = parsed[0]
 	, usage = parsed[1];
