@@ -1,6 +1,6 @@
 {
   "name": "sendak-usage",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A command-line parser/usage generator wrapping nopt",
   "main": "lib/sendak-usage.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "mocha": "*",
     "chai": "*"
   },
-  "author": "Jane Avriette <jane@cpan.org> (http://github.com/avriette)",
+  "author": "Jane Arc <jane@cpan.org> (http://github.com/janearc)",
   "license": "CC0-1.0",
   "bugs": {
     "url": "https://github.com/18F/sendak-usage/issues"
