@@ -1,6 +1,6 @@
 {
   "name": "sendak-usage",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A command-line parser/usage generator wrapping nopt",
   "main": "lib/sendak-usage.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "dependencies": {
     "nopt": "*",
     "mocha": "*",
+    "log4js": "*",
     "chai": "*"
   },
   "author": "Jane Arc <jane@cpan.org> (http://github.com/janearc)",
