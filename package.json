@@ -1,6 +1,6 @@
 {
   "name": "sendak-usage",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A command-line parser/usage generator wrapping nopt",
   "main": "lib/sendak-usage.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "usage"
   ],
   "dependencies": {
-    "nopt": "*",
+    "minimist": "*",
     "mocha": "*",
     "log4js": "*",
     "chai": "*"
